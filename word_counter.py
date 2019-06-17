@@ -1,6 +1,5 @@
 
-print("Please enter a sentence: ")
-sentence = str(input())
+sentence = str(input("Please enter a sentence: "))
 
 #Words are separated by space:
 words = sentence.split(" ")

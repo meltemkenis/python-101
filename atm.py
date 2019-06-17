@@ -4,30 +4,25 @@ print("Hi, welcome!\nTo inquiry your balance please press 1\nTo withdraw please 
 
 credit = 10000
 while True:
-    print("Please choose an action:")
-    
-    action = int(input())
+    action = int(input("Please choose an action:"))
     
     if action == 1:
         print("Credit Amount:", credit)  
         
     elif action == 2:
-        print("Enter the amount you would like to withdraw from your account:")
-        withdraw = int(input())
+        withdraw = int(input("Enter the amount you would like to withdraw from your account:"))
         credit = credit - withdraw
         print("New balance: ",credit)
         
     elif action == 3:
-        print("Enter the amount you would like to deposit into your account:")
-        deposit = int(input())
+        deposit = int(input("Enter the amount you would like to deposit into your account:"))
         credit = credit + deposit
         print("New Balance: ",credit)
         
     else: 
         print("Invalid operation!")
-    
-    print("Do you want to make a new transaction?: (y/n)")
-    new_operation = str(input())
+
+    new_operation = str(input("Do you want to make a new transaction?: (y/n)"))
     if new_operation == 'y':
         continue
     elif new_operation == 'n':
