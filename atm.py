@@ -1,8 +1,5 @@
 
-print("Hi, welcome!")
-print("To inquiry your balance please press 1")
-print("To withdraw please press 2")
-print("To deposit money into account please press 3")
+print("Hi, welcome!\nTo inquiry your balance please press 1\nTo withdraw please press 2\nTo deposit money into account please press 3")
 
 
 credit = 10000
