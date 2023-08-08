@@ -4,43 +4,43 @@ Welcome to my self-development portfolio! This repository contains various Pytho
 
 ## 1. Simple Banking System
 
-File: atm.py
+File: `atm.py`
 
 Description: This program simulates a simple banking system where users can inquire about their account balance, withdraw money, and deposit money. The program uses a while loop to allow multiple transactions until the user decides to quit.
 
 ## 2. Body Mass Index Calculator
 
-File: body_mass_index.py
+File: `body_mass_index.py`
 
 Description: This script calculates the Body Mass Index (BMI) based on the user's input of height and weight. It then classifies the BMI into different categories (underweight, normal, overweight, obese, and over obese) and suggests how much weight the user should gain or lose to reach a normal weight.
 
 ## 3. Basic Calculator
 
-File: calculator.py
+File: `calculator.py`
 
 Description: This is a simple calculator program that allows users to perform basic arithmetic operations (addition, subtraction, multiplication, and division) on two given numbers.
 
 ## 4. Number Guessing Game
 
-File: guessing_game.py
+File: `guessing_game.py`
 
 Description: This fun game randomly generates a number between 1 and 100, and the user needs to guess the correct number within a limited number of attempts. The game provides hints to guide the user in making guesses.
 
 ## 5. Love Calculator
 
-File: love_meter.py
+File: `love_meter.py`
 
 Description: This romantic script calculates a "love point" between two people based on their names. The love point is determined by a series of mathematical operations, and it represents the compatibility between the two individuals.
 
 ## 6. Mean and Standard Deviation Calculator
 
-File: mean_sdev.py
+File: `mean-sdev.py`
 
 Description: This program calculates the mean and standard deviation of a given list of numbers. It defines functions for calculating the mean and standard deviation and demonstrates their usage with a sample list.
 
 ## 7. Word Counter
 
-File: word_counter.py
+File: `word_counter.py`
 
 Description: This script takes a sentence as input and counts the number of words in the sentence. It splits the sentence into words based on spaces and then calculates the total word count.
 
